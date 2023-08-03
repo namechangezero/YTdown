@@ -1,0 +1,14 @@
+{
+  "name": "ytdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"electron ."
+  },
+  "author": "_namechange",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.4.0"
+  }
+}

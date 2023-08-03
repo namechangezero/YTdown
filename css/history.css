@@ -1,0 +1,36 @@
+
+#history {
+    display: none;
+    position: absolute;
+    width: 80%;
+    background-color: grey;
+    z-index: 10;
+    /* center vertically and horizontally */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.historyItem {
+    margin: 0 0 10px 0;
+    padding: 0;
+    border: 1px solid #cccccc4f;
+    border-radius: 5px;
+    background-color: #ffffff3d;
+    overflow: hidden;
+}
+
+.historyItem h3{
+    text-align: left !important;
+}
+
+#CloseHistory{
+    color: red;
+    background-color: rgba(255, 255, 255, 0.582);
+    border-radius: 8px;
+    border:none;
+    font-size: large;
+}

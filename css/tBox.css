@@ -1,0 +1,50 @@
+.tBox{
+    background-color: rgba(14, 13, 56, 0.322);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.tBox h3{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.tBox select{
+    color: white;
+    background-color: rgba(0, 11, 58, 0.315);
+    font-size: 1.1rem;
+    border-radius: 8px;
+    padding: 4px;
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid #f700ff;
+    
+}
+
+.tBox input{
+    color: white;
+    background-color: rgba(0, 11, 58, 0.315);
+    font-size: 1.1rem;
+    border-radius: 8px;
+    padding: 4px;
+    width: 50%;
+    margin-left: 25%;
+    outline: 1px solid #f700ff;
+    border:none;
+}
+
+
+
+#openHistory{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+}

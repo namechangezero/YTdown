@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YTdown</title>
+    <link rel="stylesheet" href="data/fontawesome-free-6.4.2-web/css/all.min.css">
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+    <img src="data/img/YTdown.png" alt="" id="logo">
+
+    <button id="openHistory"><i class="fa-solid fa-backward"></i></button>
+    
+    <div id="youtubeLink" class="tBox">
+        <h3>Enter Youtube Link</h3>
+        <input type="text" name="youtubeLink" id="youtubeLinkInput" placeholder="youtube.com/...">
+    </div>
+
+    <div id="fileformatDiv" class="tBox">
+        <h3>Select File Format</h3>
+        <select name="fileFormats" id="fileFormat">
+            <option value="mp3">MP3</option>
+            <option value="mp4">MP4</option>
+        </select>
+    </div>
+
+    <div class="tBox" id="serverEnabledDiv">
+        <h3>Enable Server Downloading</h3>
+        <select name="enableServer" id="enableServerSelect">
+            <option value="no">No (local, usually faster)</option>
+            <option value="yes">Yes</option>
+        </select>
+    </div>
+
+    <div class="tBox" id="download">
+        <button id="downloadButton">Download</button>
+    </div>
+
+    <div class="tBox" id="loadingBar1">
+        <h3>Downloading...</h3>
+        <div class="progressBar"></div>
+    </div>
+    
+
+    <div id="history" class="tBox">
+        <button id="CloseHistory">x</button>
+        <h3>History</h3>
+        <div id="historyList"></div>
+    </div>
+
+
+</body>
+</html>

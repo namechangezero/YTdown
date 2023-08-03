@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    background-image: url("../data/img/background/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: Helvetica;
+
+    margin: 0;
+
+}
+
+
+#logo{
+    /* center image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* width */
+    width: 25rem;
+}
+
+
+#downloadButton{
+    border:1px solid #f700ff;
+    padding: 5px;
+    border-radius: 10px;
+    color:white;
+    background-color: rgba(0, 11, 58, 0.315);
+    font-size: larger;
+    cursor: pointer;
+    margin: 10px;
+    /*center*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
